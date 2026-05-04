@@ -1,0 +1,56 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.auth{
+    background-color: rgb(0, 0, 0);
+}
+.notfound{
+    color: rgb(0, 0, 0);
+}
+.trend{
+    border: 3px solid rgb(0, 0, 0);
+}
+.heading{
+        color: rgb(0, 0, 0);
+font-size: 30px;
+}
+.imglay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+    opacity: 0;
+    text-align: center;
+    color: white;
+    
+}
+.imglay:hover{
+    opacity: 1;
+}
+.imginfo{
+    position: absolute;
+    width: 100%;
+    top: 32%;
+    left: 0;
+}
+.imginfo h4{
+    font-size: 32px;
+    font-weight: 700px;
+}
+.vote{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 0%;
+    right: 0%;
+    margin-right: 1px;
+    margin-top: 25px;
+    padding: 5px;
+}

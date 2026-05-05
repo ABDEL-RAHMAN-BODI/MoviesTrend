@@ -30,7 +30,7 @@ export default function Navbar({logindata,setLoginData}) {
           <Link className="nav-link text-white" to="tv">Tv</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-white" to="coffe">Coffe</Link>
+          <Link className="nav-link text-white" to="coffe">Coffee</Link>
         </li>
       </ul> :""}
      

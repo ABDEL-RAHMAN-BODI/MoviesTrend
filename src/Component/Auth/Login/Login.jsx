@@ -17,7 +17,7 @@ let navigate = useNavigate()
   let {data} = await axios.post(`https://note-sigma-black.vercel.app/api/v1/users/signin`,values)
 console.log(data);
 localStorage.setItem("token",data.token);
-savetoken
+savetoken()
 toast.success("Welcome to Home!",{position:"top-right"});
 navigate("/home");
 

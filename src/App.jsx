@@ -43,8 +43,8 @@ if (localStorage.getItem("token")!=null){
       {path:"moviesdetails/:id",element:<MovieDetails/>},
       {path:"tvdetails/:id",element:<TvDetails/>},
       {path:"home",element:<Home/>},
-      {index:true,element:<Login/>},
-      {path:"login",element:<Login savetoken={savetoken}/>},
+      {index:true,element:<Login savetoken={savetoken}/>},
+      
 
     ]}
   ])
